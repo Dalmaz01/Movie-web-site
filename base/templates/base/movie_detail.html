@@ -1,0 +1,17 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+<div class="movie">
+    <div class="movie-image"> <span class="play"><span class="name">{{movie.name}}</span></span> <img src="{{movie.image.url}}" alt="" /> </div>
+    <div class="rating">
+        <p>RATING</p>
+        <div class="stars">
+            <div class="stars-in"> </div>
+        </div>
+        <span class="comments">12</span>
+    </div>
+    <br><br>
+    <div class="text">{{movie.description}}</div>
+
+</div>
+{% endblock %}
