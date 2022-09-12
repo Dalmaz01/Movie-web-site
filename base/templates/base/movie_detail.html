@@ -11,7 +11,14 @@
         <span class="comments">12</span>
     </div>
     <br><br>
-    <div class="text">{{movie.description}}</div>
+
+    <div class="movie-info">
+        <p><strong>Description:</strong> {{movie.description}}</p>
+        <p><strong>Release date:</strong> {{movie.release_date}}</p>
+        <p><strong>Budget:</strong> {{movie.budget}}$</p>
+        <p><strong>Genre:</strong> {{movie.genre}}</p>
+    </div>
+
 
 </div>
 {% endblock %}
